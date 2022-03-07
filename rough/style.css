@@ -1,0 +1,81 @@
+body{
+    margin: 0%;
+    font-family:'Segoe UI';
+}
+
+header{
+    background-color: #195656;
+    padding: 2em;
+    text-align: center;
+    font-size: 1.5em;
+    color: aliceblue;
+    font-family:serif;      
+}
+.formbox{
+    padding: 6em 0 1em 0;
+}
+.outputbox{
+    padding: 1em 0;
+}
+.row{
+    padding: 10px;
+}
+.box1{
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 18px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.box2{
+    color: black;
+    border: solid #195656 2px;
+    margin: 0 0 8px 0;
+}
+.box3{
+    color: black;
+    border: solid rgb(114, 146, 0) 2px;
+    display: inline-block;
+    height: 20px;
+    width: auto;
+}
+
+label{
+    font-size: 20px;
+}
+
+#total{
+    background-color:burlywood;
+}
+.button1{
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    color:black;
+    transition-duration: 0.3s;
+    outline: none;
+    width: 6.2em;
+}
+
+.button2{
+    border: solid #195656 2px;
+}
+.button2:hover{
+    background-color: #195656;
+    color:aliceblue;
+}
+
+.button3{
+    border: solid #db3d3d 2px;
+}
+.button3:hover{
+    background-color: #db3d3d;
+    color:aliceblue;
+}
